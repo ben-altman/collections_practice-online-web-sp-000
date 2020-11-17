@@ -39,8 +39,8 @@ def sum_array(array)
   array.inject do |a, b|
     a + b
   end
-end  
-  
+end
+
 =begin
 def sort_array_asc(array)
   array.sort do |x,y|
