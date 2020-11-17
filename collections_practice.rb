@@ -37,7 +37,7 @@ end
 
 def sum_array(array)
   total = 0
-  array.each do |num|
+  array.each do |num|     #.each returns array, so make a variable to hold the sum of its parts
     total += num
   end
   total
