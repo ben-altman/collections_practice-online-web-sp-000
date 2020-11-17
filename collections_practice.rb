@@ -35,21 +35,21 @@ def find_a(array)
   end
 end
 
-def sum_array(array)
-  total = 0
-  array.each do |num|     #.each returns array, so make a variable to hold the sum of its parts
-    total += num
-  end
-  total
-end
+#def sum_array(array)
+#  total = 0
+#  array.each do |num|     #.each returns array, so make a variable to hold the sum of its parts
+#    total += num
+#  end
+#  total
+#end
 
-=begin
 def sum_array(array)
   array.inject do |a, b|
     a + b
   end
 end
-=end
+
+
 
 =begin
 def sort_array_asc(array)
