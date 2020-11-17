@@ -29,7 +29,9 @@ def kesha_maker(array)
   keshized
 end
 
-
+def find_a(array)
+  array.collect {|e| e.start_with("a")}
+end
 
 =begin
 def sort_array_asc(array)
