@@ -20,15 +20,20 @@ def reverse_array(array)
   array.reverse
 end
 
+#def kesha_maker(array)
+#  keshized = []
+#  array.each do |element|
+#    element[2] = "$"
+#    keshized << element
+#  end
+#  keshized
+#end
+
 def kesha_maker(array)
-  keshized = []
   array.each do |element|
     element[2] = "$"
-    keshized << element
   end
-  keshized
 end
-
 
 =begin
 def sort_array_asc(array)
