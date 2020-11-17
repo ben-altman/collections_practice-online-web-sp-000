@@ -52,6 +52,7 @@ end
 def add_s(array)
   array.collect do |part|
     if array[1] == part
+      part
     else
       part << "s"
     end
