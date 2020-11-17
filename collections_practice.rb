@@ -36,10 +36,18 @@ def find_a(array)
 end
 
 def sum_array(array)
+  total = 0
+  array.each do |num|
+    num += total
+end
+
+=begin
+def sum_array(array)
   array.inject do |a, b|
     a + b
   end
 end
+=end
 
 =begin
 def sort_array_asc(array)
