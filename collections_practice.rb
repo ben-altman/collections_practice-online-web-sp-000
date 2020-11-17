@@ -50,7 +50,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect {|part| part << "s"}
+  array.collect do |part|
+    part << "s"
+  end
 end
 
 =begin
