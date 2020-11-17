@@ -35,6 +35,12 @@ def find_a(array)
   end
 end
 
+def sum_array(array)
+  array.inject do |a, b|
+    a + b
+  end
+end  
+  
 =begin
 def sort_array_asc(array)
   array.sort do |x,y|
