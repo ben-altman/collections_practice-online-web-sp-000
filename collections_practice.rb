@@ -30,7 +30,8 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.collect {|e| e.start_with?("a")}
+  array.collect do |e|
+    if e.start_with?("a")
 end
 
 =begin
