@@ -32,7 +32,8 @@ end
 def find_a(array)
   nuarray = []
   array.collect do |e|
-    nuarray << if e.start_with?("a")
+    e.start_with?("a")
+  end
 end
 
 =begin
