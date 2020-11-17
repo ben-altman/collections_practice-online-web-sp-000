@@ -54,7 +54,8 @@ def add_s(array)
     if array[1] == part
       part
     else
-      part << "s"       #can use part + "s"
+      #part << "s"       #can use 
+      part + "s"
     end
   end
 end
