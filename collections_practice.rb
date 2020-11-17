@@ -49,7 +49,9 @@ def sum_array(array)
   end
 end
 
-
+def add_s(array)
+  array.collect {|part| part << "s"}
+end
 
 =begin
 def sort_array_asc(array)
