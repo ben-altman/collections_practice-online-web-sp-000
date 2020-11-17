@@ -49,4 +49,10 @@ def sort_array_desc(array)
   end
 end
 
+def kesha_maker(array)
+  array.each do |element|
+    element[2] = "$"
+  end
+end
+
 =end
