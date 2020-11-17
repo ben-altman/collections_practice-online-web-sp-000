@@ -20,6 +20,13 @@ def reverse_array(array)
   array.reverse
 end
 
+def kesha_maker(array)
+  array.each do |element|
+    element[2] = $
+  end
+end
+
+
 =begin
 def sort_array_asc(array)
   array.sort do |x,y|
